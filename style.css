@@ -1,0 +1,229 @@
+.pic{
+    background: url("https://img.freepik.com/free-psd/dinnerware-elements-wooden-shelf_176382-1728.jpg?size=626&ext=jpg&ga=GA1.1.179910324.1702895940&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    
+}
+
+.koko{
+    position: absolute;
+    top: 50%; left: 10%;
+}
+
+.img-box{
+    display: flex;
+    gap: 20px;
+}
+
+.lolo{
+    background: url("https://img.freepik.com/free-photo/kitchen-with-ingredients-tools_144627-41883.jpg?size=626&ext=jpg&ga=GA1.1.179910324.1702895940&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    
+}
+
+.lolo1{
+    position: absolute;
+    top: 80%; left: 10%;  
+}
+
+.lolo2{
+    background: url("https://img.freepik.com/free-photo/empty-modern-room-with-furniture_23-2149178336.jpg?size=626&ext=jpg&ga=GA1.1.179910324.1702895940&semt=ais");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+
+.ho-card:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+} 
+
+
+
+           /* watsapp and instagram css */
+/* .fixe{
+  background-color:lightblue;
+  cursor: pointer;
+  transition: .5s;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+ right:0;
+ top: 50%;
+ position: fixed;
+}
+
+.fixe i{ 
+  font-size: 50px;
+} */
+
+.fixe i{
+  font-size:40px;
+}
+
+.fixe{
+  display: flex;
+  flex-direction: column;
+  top: 50%; position: fixed;
+  right: 0;
+
+  cursor: pointer; 
+}
+
+.fixe:hover{
+  background-color: gray;
+  color: wheat; padding: 5px; transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     /* navbar css */
+                     * {
+                        box-sizing: border-box;
+                      }
+                      
+                      body {
+                        margin: 0px;
+                        font-family: 'segoe ui';
+                      }
+                      
+                      .nav {
+                        height: 60px;
+                        width: 100%;
+                        background-color:rgba(106, 109, 108, 0.829);
+                        position: relative;
+                        z-index: 1;
+                        display: flex;
+                        justify-content: space-between;
+                        border-radius: 10px;
+                      }
+                      
+                      .nav > .nav-header {
+                        display: inline;
+                      }
+                      
+                      .nav > .nav-header > .nav-title {
+                        font-size: 22px;
+                        color: #fff;
+
+                        padding: 10px 10px 10px 10px;
+                      }
+                      
+                      .nav > .nav-btn {
+                        display: none;
+                      }
+                      .nav > .nav-links {
+                      margin-right: 100px;
+                      cursor: pointer;
+                      }
+                      
+                      
+                      .nav > .nav-links > a {
+                        display: inline-block;
+                        padding: 13px 10px 13px 10px;
+                        text-decoration: none;
+                        color: black;
+                      }
+                      
+                      .nav > .nav-links > a:hover {
+                        color: white;
+                        transition: 0.5s;
+                      }
+                      
+                      .nav > #nav-check {
+                        display: none;
+                      }
+                      
+                      @media (max-width:600px) {
+                        .nav > .nav-btn {
+                          display: inline-block;
+                          position: absolute;
+                          right: 0px;
+                          top: 0px;
+                        }
+                        .nav > .nav-btn > label {
+                          display: inline-block;
+                          width: 50px;
+                          height: 50px;
+                          padding: 13px;
+                        }
+                        .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+                          background-color: rgba(0, 0, 0, 0.3);
+                        }
+                        .nav > .nav-btn > label > span {
+                          display: block;
+                          width: 25px;
+                          height: 10px;
+                          border-top: 2px solid #eee;
+                        }
+                        .nav > .nav-links {
+                          position: absolute;
+                          display: block;
+                          width: 100%;
+                          background-color: #333;
+                          height: 0px;
+                          transition: all 0.3s ease-in;
+                          overflow-y: hidden;
+                          top: 50px;
+                          left: 0px;
+                        }
+                        .nav > .nav-links > a {
+                          display: block;
+                          width: 100%;
+                          color: white;
+                          text-align: center;
+                        }
+                        .nav > #nav-check:not(:checked) ~ .nav-links {
+                          height: 0px;
+                        }
+                        .nav > #nav-check:checked ~ .nav-links {
+                          height: calc(100vh - 50px);
+                          overflow-y: auto;
+                        }
+                      } 
+                    
+                 /* nav bar css end */
